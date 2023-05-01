@@ -1,5 +1,7 @@
 import Footers from "@/components/footers"
 import Nav from "@/components/nav"
+import Link from 'next/link'
+
 const Minimal_Art = () => {
     return ( 
 
@@ -27,15 +29,15 @@ const Minimal_Art = () => {
                             deserunt mollit anim id est laborum.
                         </p>
                         
-                         <a href="https://www.youtube.com/watch?v=UIp6_0kct_U">  
+                         <Link href="https://www.youtube.com/watch?v=UIp6_0kct_U">  
                             <button className="button YoutubeButton">Youtube</button>
-                          </a>
-                          <a href="https://twitch.tv/minimal_art">  
+                          </Link>
+                          <Link href="https://twitch.tv/minimal_art">  
                             <button className="button TwitchButton">Twitch</button>
-                          </a>
-                          <a href="https://twitter.com/min_imalart">  
+                          </Link>
+                          <Link href="https://twitter.com/min_imalart">  
                             <button className="button TwitterButton">Twitter</button>
-                          </a>  
+                          </Link>  
                        {/* <p className="col-sm charDes">
                             Geburtstag: ??? 
                         <br></br>

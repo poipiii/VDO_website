@@ -1,5 +1,6 @@
 import Footers from "@/components/footers"
 import Nav from "@/components/nav"
+import Link from 'next/link'
 
 const Arielle = () => {
     return ( 
@@ -27,15 +28,15 @@ const Arielle = () => {
                             deserunt mollit anim id est laborum.
                         </p>
                         
-                         <a href="http://youtube.com/CaturteerChannel">  
+                         <Link href="http://youtube.com/CaturteerChannel">  
                             <button className="button YoutubeButton">Youtube</button>
-                          </a>
-                          <a href="https://twitch.tv/arielleleovt">  
+                          </Link>
+                          <Link href="https://twitch.tv/arielleleovt">  
                             <button className="button TwitchButton">Twitch</button>
-                          </a>
-                          <a href="https://twitter.com/arielleleovt">  
+                          </Link>
+                          <Link href="https://twitter.com/arielleleovt">  
                             <button className="button TwitterButton">Twitter</button>
-                          </a>  
+                          </Link>  
    {/* <p className="col-sm charDes">
                             Geburtstag: ??? 
                         <br></br>

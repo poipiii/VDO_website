@@ -1,6 +1,6 @@
 import Footers from "@/components/footers"
 import Nav from "@/components/nav"
-
+import Link from "next/link";
 const Himetokki = () => {
     return ( 
             <div className="FrontPage">
@@ -27,15 +27,15 @@ const Himetokki = () => {
                             deserunt mollit anim id est laborum.
                         </p>
                         
-                          <a href="https://www.youtube.com/channel/UCogbKCoyjL3wHyRB0ek_h5w">  
+                          <Link href="https://www.youtube.com/channel/UCogbKCoyjL3wHyRB0ek_h5w">  
                             <button className="button YoutubeButton">Youtube</button>
-                          </a>
-                          <a href="https://twitch.tv/himetokki">  
+                          </Link>
+                          <Link href="https://twitch.tv/himetokki">  
                             <button className="button TwitchButton">Twitch</button>
-                          </a>
-                          <a href="https://twitter.com/himetokkii">  
+                          </Link>
+                          <Link href="https://twitter.com/himetokkii">  
                             <button className="button TwitterButton">Twitter</button>
-                          </a>  
+                          </Link>  
           {/* <p classNameName="col-sm charDes">
                             Geburtstag: ??? 
                         <br></br>
