@@ -13,7 +13,7 @@ const Talents = () => {
                     <article className="col-sm">
                         <h3>Arielle</h3>
                         <figure>
-                            <Link href="/Arielle"><img className="talent_shot" src="/Arielle Talent Shot.jpg"></img></Link>
+                            <Link href="/Arielle"><img className="talent_shot" src="/Arielle Talent Shot.jpg" alt=''></img></Link>
                         </figure>
                         <p>
                             The lion (Panthera leo) is a large cat of the genus Panthera
@@ -24,7 +24,7 @@ const Talents = () => {
                     <article className="col-sm">
                         <h3>Caturteer</h3>
                         <figure>
-                            <Link href="/Caturteer"><img className="talent_shot" src="/Caturteer Talent Shot.jpg"></img></Link>
+                            <Link href="/Caturteer"><img className="talent_shot" src="/Caturteer Talent Shot.jpg" alt=''></img></Link>
                         </figure>
                         <p>
                             The cat (Felis catus) is a domestic species of small carnivorous
@@ -38,7 +38,7 @@ const Talents = () => {
                     <article className="col-sm">
                         <h3>Himetokki</h3>
                         <figure>
-                            <Link href="/Himetokki"><img className="talent_shot" src="/Himetokki Talent Shot.jpg"></img></Link>
+                            <Link href="/Himetokki"><img className="talent_shot" src="/Himetokki Talent Shot.jpg" alt=''></img></Link>
                         </figure>
                         <p>
                             Rabbits, also known as bunnies or bunny rabbits, are
@@ -49,7 +49,7 @@ const Talents = () => {
                     <article className="col-sm">
                         <h3>Minimal_Art</h3>
                         <figure>
-                            <Link href="/Minimal_Art"><img className="talent_shot" src="/Minimal_Art Talent Shot.jpg"></img></Link>
+                            <Link href="/Minimal_Art"><img className="talent_shot" src="/Minimal_Art Talent Shot.jpg" alt=''></img></Link>
                         </figure>
                         <p>
                             Sharks are a group of elasmobranch fish characterized

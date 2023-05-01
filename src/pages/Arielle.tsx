@@ -13,7 +13,7 @@ const Arielle = () => {
                     <article className="col-sm">
                         <figure>
                             <img className="scrolImage" 
-                                 src="/Arielle 1.png"></img>
+                                 src="/Arielle 1.png" alt=""></img>
                         </figure>
                     </article>
                     <article className="col-sm charDesTitle">

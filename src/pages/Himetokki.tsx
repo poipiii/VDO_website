@@ -12,7 +12,7 @@ const Himetokki = () => {
                     <article className="col-sm">
                         <figure>
                             <img className="scrolImage" 
-                                 src="/Himetokki 1.png"></img>
+                                 src="/Himetokki 1.png" alt=""></img>
                         </figure>
                     </article>
                     <article className="col-sm charDesTitle">

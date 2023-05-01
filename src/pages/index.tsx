@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Nav from '@/components/nav'
 import Footers from '@/components/footers'
+import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
         <Nav></Nav> 
         <main>
             <section className="FPBanner">
-                <img src="/Banner_Pic_1.jpg"></img>
+                <img src="/Banner_Pic_1.jpg" alt=""></img>
             </section>
             <section id="About" className="About container">
                 <h1>About</h1>
@@ -28,14 +29,14 @@ export default function Home() {
                     <article className="col-sm">
                         <h3>Arielle</h3>
                         <figure>
-                            <a href="/Arielle"><img className="talent_shot" src="/Arielle Talent Shot.jpg"></img></a>
+                            <Link href="/Arielle"><img className="talent_shot" src="/Arielle Talent Shot.jpg" alt=""></img></Link>
                         </figure>
 
                     </article>
                     <article className="col-sm">
                         <h3>Caturteer</h3>
                         <figure>
-                            <a href="/Caturteer"><img className="talent_shot" src="/Caturteer Talent Shot.jpg" ></img></a>
+                            <Link href="/Caturteer"><img className="talent_shot" src="/Caturteer Talent Shot.jpg" alt=""></img></Link>
                         </figure>
 
                     </article>
@@ -44,14 +45,14 @@ export default function Home() {
                     <article className="col-sm">
                         <h3>Himetokki</h3>
                         <figure>
-                            <a href="/Himetokki"><img className="talent_shot" src="/Himetokki Talent Shot.jpg"></img></a>
+                            <Link href="/Himetokki"><img className="talent_shot" src="/Himetokki Talent Shot.jpg" alt=""></img></Link>
                         </figure>
 
                     </article>
                     <article className="col-sm">
                         <h3>Minimal_Art</h3>
                         <figure>
-                            <a href="/Minimal_Art"><img className="talent_shot" src="/Minimal_Art Talent Shot.jpg"></img></a>
+                            <Link href="/Minimal_Art"><img className="talent_shot" src="/Minimal_Art Talent Shot.jpg" alt=""></img></Link>
                         </figure>
                     </article>
                 </div>

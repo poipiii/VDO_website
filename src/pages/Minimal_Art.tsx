@@ -14,7 +14,7 @@ const Minimal_Art = () => {
                              <article className="col-sm">
                         <figure>
                             <img className="scrolImage" 
-                                 src="/Minimal_Art 1.png"></img>
+                                 src="/Minimal_Art 1.png" alt=""></img>
                         </figure>
                     </article>
                     <article className="col-sm charDesTitle">

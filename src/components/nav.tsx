@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Nav = () => {
     return ( 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <a className="navbar-brand d-lg-none averLogo" href="../"><img src="/avernativelogo.png"></img></a>
+    <a className="navbar-brand d-lg-none averLogo" href="../"><img src="/avernativelogo.png" alt=''></img></a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
         aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -19,7 +19,7 @@ const Nav = () => {
             <li className="nav-item">
                 <Link className="nav-link" href="/About">ABOUT</Link>
             </li>
-            <Link className="d-none d-lg-block averLogo" href="../"><img src="/avernativelogo.png"></img></Link>
+            <Link className="d-none d-lg-block averLogo" href="../"><img src="/avernativelogo.png" alt=''></img></Link>
             <li className="nav-item">
                 <Link className="nav-link" href="/Talents">TALENTS</Link>
             </li>

@@ -13,7 +13,7 @@ const Caturteer = () => {
                     <article className="col-sm">
                         <figure>
                             <img className="scrolImage" 
-                                 src="/Caturteer 1.png"></img>
+                                 src="/Caturteer 1.png" alt=""></img>
                         </figure>
                     </article>
                     <article className="col-sm charDesTitle">
