@@ -166,7 +166,7 @@ body {
 }
 
 .FrontPage {
-  background-image: url(../images/Background_1.jpg);
+  background-image: url(/Background_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -181,7 +181,7 @@ body {
 .FPBanner {
   z-index: 999;
   display: block;
-  background-image: url(../images/Banner_Pic_1.jpg);
+  background-image: url(/Banner_Pic_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
@@ -251,14 +251,8 @@ iframe {
 
 @keyframes change {
   0% {
-    background-image: url("../images/Banner_Pic_1.jpg");
+    background-image: url("/Banner_Pic_1.jpg");
   }
 
-  33% {
-    background-image: url("../images/Arielle 2.png");
-  }
 
-  66% {
-    background-image: url("../images/Arielle 1.png");
-  }
 }
