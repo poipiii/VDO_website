@@ -1,0 +1,264 @@
+* {
+  font-family: "Sans-serif", Helvetica;
+}
+
+section h2 {
+  text-decoration: underline;
+}
+
+figcaption {
+  color: grey;
+  font-style: italic;
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
+}
+
+footer {
+  align-items: center;
+  background-color: #00c2ff;
+  font-size: 1em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgborder {
+  border: 5px double black;
+}
+
+.img-popup {
+  position: absolute;
+  left: 70px;
+  top: 80px;
+  border: 10px solid grey;
+  height: 260px;
+  width: auto;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.2em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #808080;
+}
+
+.navbar-logo-centered .navbar-nav .nav-link {
+  padding: .5em 1em;
+}
+
+.averLogo img {
+  width: 17vw;
+  height: auto;
+}
+
+.nav-item {
+  display: block;
+  padding-top: 3%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+body {
+  background-color: transparent;
+}
+
+.FrontPageImage {
+  width: 25.25vw;
+  height: auto;
+}
+
+.column {
+  float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: inline-flex;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.scrolImage {
+  width: 100%;
+  height: auto;
+}
+
+.charDesTitle {
+  display: inline-block;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.charDes {
+  display: inline-block;
+  text-align: left;
+  background-color: white;
+  padding: 3%;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.YoutubeButton {
+  border-radius: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 2px solid;
+  border-color: #c4302b;
+  background-color: white;
+  color: black;
+}
+
+.YoutubeButton:hover {
+  background-color: #c4302b;
+  color: white;
+}
+
+.TwitchButton {
+  border-radius: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 2px solid;
+  border-color: #6441a5;
+  background-color: white;
+  color: black;
+}
+
+.TwitchButton:hover {
+  background-color: #6441a5;
+  color: white;
+}
+
+.TwitterButton {
+  border-radius: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 2px solid;
+  border-color: #00acee;
+  background-color: white;
+  color: black;
+}
+
+.TwitterButton:hover {
+  background-color: #00acee;
+  color: white;
+}
+
+.FrontPage {
+  background-image: url(../images/Background_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FPBanner img {
+  width: 90vw;
+  display: inline-block;
+  text-align: center;
+  visibility: hidden;
+}
+
+.FPBanner {
+  z-index: 999;
+  display: block;
+  background-image: url(../images/Banner_Pic_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  animation: change 10s infinite ease-in-out;
+}
+
+.About {
+  text-align: center;
+  display: block;
+  font-size: 1em;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.footerimg {
+  width: 40vw;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.twitter {
+  width: 6vw;
+  position: absolute;
+  top: 10%;
+  left: 35.5%;
+}
+
+.youtube {
+  width: 6vw;
+  position: absolute;
+  top: 10%;
+  left: 47%;
+}
+
+/*64.2%
+  29.8%*/
+.carrd {
+  width: 6vw;
+  position: absolute;
+  top: 10%;
+  left: 58.45%;
+}
+
+.talent_shot {
+  width: 35vw;
+  height: auto;
+  text-align: center;
+  display: block;
+}
+
+article {
+  text-align: center;
+}
+
+iframe {
+  border: none;
+  padding-top: 3%;
+}
+
+@keyframes change {
+  0% {
+    background-image: url("../images/Banner_Pic_1.jpg");
+  }
+
+  33% {
+    background-image: url("../images/Arielle 2.png");
+  }
+
+  66% {
+    background-image: url("../images/Arielle 1.png");
+  }
+}
