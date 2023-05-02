@@ -16,9 +16,7 @@ const Talents = () => {
                             <Link href="/Arielle"><img className="talent_shot" src="/Arielle Talent Shot.jpg" alt=''></img></Link>
                         </figure>
                         <p>
-                            The lion (Panthera leo) is a large cat of the genus Panthera
-                            native to Africa and India. It has a muscular, broad-chested body;
-                            short, rounded head; round ears; and a hairy tuft at the end of its tail.
+                            
                         </p>
                     </article>
                     <article className="col-sm">
@@ -27,10 +25,7 @@ const Talents = () => {
                             <Link href="/Caturteer"><img className="talent_shot" src="/Caturteer Talent Shot.jpg" alt=''></img></Link>
                         </figure>
                         <p>
-                            The cat (Felis catus) is a domestic species of small carnivorous
-                            mammal. It is the only domesticated species in the family Felidae
-                            and is commonly referred to as the domestic cat or house cat to
-                            distinguish it from the wild members of the family.
+                            .
                         </p>
                     </article>
                 </div>
@@ -41,9 +36,7 @@ const Talents = () => {
                             <Link href="/Himetokki"><img className="talent_shot" src="/Himetokki Talent Shot.jpg" alt=''></img></Link>
                         </figure>
                         <p>
-                            Rabbits, also known as bunnies or bunny rabbits, are
-                            small mammals in the family Leporidae (which also contains
-                            the hares) of the order Lagomorpha (which also contains the pikas). 
+                           
                         </p>
                     </article>
                     <article className="col-sm">
@@ -52,9 +45,7 @@ const Talents = () => {
                             <Link href="/Minimal_Art"><img className="talent_shot" src="/Minimal_Art Talent Shot.jpg" alt=''></img></Link>
                         </figure>
                         <p>
-                            Sharks are a group of elasmobranch fish characterized
-                            by a cartilaginous skeleton, five to seven gill slits on
-                            the sides of the head, and pectoral fins that are not fused to the head. 
+                           
                         </p>
                     </article>
                 </div>

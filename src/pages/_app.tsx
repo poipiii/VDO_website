@@ -10,7 +10,11 @@ from
  
 '@vercel/analytics/react'
 ;
+import localFont from 'next/font/local'
+const myFont = localFont({ src: '../../public/Azonix.woff2' })
+
 export default function App({ Component, pageProps }: AppProps) {
+
   useEffect(() => {
      require("bootstrap/dist/js/bootstrap") ;
     }, []);
@@ -19,9 +23,13 @@ export default function App({ Component, pageProps }: AppProps) {
     
   
     <>
+        <main className={myFont.className}>
+
           <Component {...pageProps} />
 
 <Analytics/>
+    </main>
+
     </>
   
 

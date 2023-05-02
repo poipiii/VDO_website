@@ -17,7 +17,7 @@ const Caturteer = () => {
                         </figure>
                     </article>
                     <article className="col-sm charDesTitle">
-                        <h3 >Caturteer Cat Turtle</h3>
+                        <h3 >Caturteer</h3>
                         <p className="charDes">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -17,7 +17,7 @@ const Arielle = () => {
                         </figure>
                     </article>
                     <article className="col-sm charDesTitle">
-                        <h3 >Arielle LionHugger</h3>
+                        <h3 >Arielle Leo</h3>
                         <p className="charDes">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -27,10 +27,10 @@ const Arielle = () => {
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                             deserunt mollit anim id est laborum.
                         </p>
-                        
+{/*                         
                          <Link href="http://youtube.com/CaturteerChannel">  
                             <button className="button YoutubeButton">Youtube</button>
-                          </Link>
+                          </Link> */}
                           <Link href="https://twitch.tv/arielleleovt">  
                             <button className="button TwitchButton">Twitch</button>
                           </Link>

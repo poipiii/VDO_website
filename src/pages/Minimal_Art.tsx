@@ -18,7 +18,7 @@ const Minimal_Art = () => {
                         </figure>
                     </article>
                     <article className="col-sm charDesTitle">
-                        <h3 >Minimal Effort</h3>
+                        <h3 >Minimal_Art</h3>
                         <p className="charDes">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -29,9 +29,9 @@ const Minimal_Art = () => {
                             deserunt mollit anim id est laborum.
                         </p>
                         
-                         <Link href="https://www.youtube.com/watch?v=UIp6_0kct_U">  
+                         {/* <Link href="https://www.youtube.com/watch?v=UIp6_0kct_U">  
                             <button className="button YoutubeButton">Youtube</button>
-                          </Link>
+                          </Link> */}
                           <Link href="https://twitch.tv/minimal_art">  
                             <button className="button TwitchButton">Twitch</button>
                           </Link>
