@@ -4,7 +4,12 @@ import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-
+import
+ { Analytics } 
+from
+ 
+'@vercel/analytics/react'
+;
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
      require("bootstrap/dist/js/bootstrap") ;
@@ -13,8 +18,12 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     
   
-      
-  <Component {...pageProps} />
+    <>
+          <Component {...pageProps} />
+
+<Analytics/>
+    </>
+  
 
   )
 }
