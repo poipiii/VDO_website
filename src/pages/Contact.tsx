@@ -7,9 +7,10 @@ const Contact = () => {
         <Nav></Nav>
         <main>
             <section id="About" className="About container">
-                <h1>Contacts</h1>
-                <p>To be filled up.
-                   </p>
+                <h1>Contact</h1>
+                <p>For business enquiries, please contact us at 
+                </p>
+                   <a href="mailto:vdogroupofficial@gmail.com">vdogroupofficial@gmail.com</a>
             </section>
         </main>
         <Footers></Footers>

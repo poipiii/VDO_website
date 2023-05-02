@@ -58,6 +58,19 @@ footer {
   height: auto;
 }
 
+.partnerLogo img {
+  margin-top: 20px;
+  width: 30vw;
+  height: auto;
+}
+
+
+.partnerLogoxp
+{
+  margin-top: 20px;
+  width: 100vw;
+  height: auto;
+}
 .nav-item {
   display: block;
   padding-top: 3%;
@@ -67,6 +80,12 @@ footer {
 
 body {
   background-color: transparent;
+}
+
+.contactbody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .FrontPageImage {
@@ -190,7 +209,9 @@ body {
 
 .About {
   text-align: center;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 1em;
   padding-top: 10%;
   padding-bottom: 10%;
