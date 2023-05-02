@@ -1,9 +1,10 @@
 import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Link from 'next/link'
 
-function Nav() {
+function BasicExample() {
   return (
     <Navbar bg="light" expand="lg" className='navbar navbar-expand-lg navbar-light bg-light'>
         <Navbar.Brand href="/" className='navbar-brand averLogo d-lg-none' >
@@ -46,4 +47,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default BasicExample;

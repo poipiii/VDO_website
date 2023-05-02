@@ -4,13 +4,14 @@ import { Inter } from 'next/font/google'
 import Nav from '@/components/nav'
 import Footers from '@/components/footers'
 import Link from 'next/link'
+import BasicExample from '@/components/Nav2.0'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
      
     <div className="FrontPage">     
-        <Nav></Nav> 
+        <Nav></Nav>
         <main>
             <section className="FPBanner">
                 <img src="/Banner_Pic_1.jpg" alt=""></img>

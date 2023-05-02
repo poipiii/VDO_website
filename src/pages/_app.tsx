@@ -3,11 +3,13 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
-      require("bootstrap/dist/js/bootstrap.bundle.min.js");
+     require("bootstrap/dist/js/bootstrap") ;
     }, []);
+
   return (
     
   
