@@ -19,7 +19,7 @@ const Arielle = () => {
                     <article className="col-sm charDesTitle">
                         <h3 >Arielle Leo</h3>
                         <p className="charDes">
-                            The lion (Panthera leo) is a large cat of the genus Panthera native to Africa and India. It has a muscular, broad-chested body; short, rounded head; round ears; and a hairy tuft at the end of its tail.
+The Rookie of the team, Arielle debuted as a V-creator on the same day V:D0 debuted at AFA2022. Even as a rookie, Arielle does bring to the audience her angelic voice as she sings and play games such as Minecraft on stream. When it comes to singing, Arielle is always exploring a wide range of song categories and choices, bringing to her audience a surprise-filled performance each stream. If you are looking for someone with a gentle voice and the likeness of a big sister, Arielle will definitely fill that role.
 
                         </p>
 {/*                         

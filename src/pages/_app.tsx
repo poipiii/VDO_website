@@ -23,12 +23,10 @@ export default function App({ Component, pageProps }: AppProps) {
     
   
     <>
-        <main className={myFont.className}>
 
           <Component {...pageProps} />
 
 <Analytics/>
-    </main>
 
     </>
   

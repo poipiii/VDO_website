@@ -19,8 +19,7 @@ const Caturteer = () => {
                     <article className="col-sm charDesTitle">
                         <h3 >Caturteer</h3>
                         <p className="charDes">
-                            The cat (Felis catus) is a domestic species of small carnivorous mammal. It is the only domesticated species in the family Felidae and is commonly referred to as the domestic cat or house cat to distinguish it from the wild members of the family.
-
+Caturteer is a V-Creator who specialises in Live2D Rigging and Animation. She is always exploring various ways to push her live2D rigging models to the limit and adding in more functionality and ranges of movement in the models she works on. In addition, she is always exploring various forms of animation and creation such as 3D modelling, VR space creation and Inochi2D. If you are looking for a chaotic and energetic catgirl to brighten your world, Caturteer is definitely going to fill your world with it.
                         </p>
                         
                           <Link href="http://youtube.com/CaturteerChannel">  

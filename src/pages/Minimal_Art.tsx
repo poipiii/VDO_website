@@ -20,7 +20,7 @@ const Minimal_Art = () => {
                     <article className="col-sm charDesTitle">
                         <h3 >Minimal_Art</h3>
                         <p className="charDes">
-                            Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head.
+                            Minimal_Art is a versatile V-Artist who draws a wide variety of styles, while also commanding her own unique artstyle.She is the main artist for V:D0. She is also well versed in character design and Vtuber Model creation. She has works with corporate partners such as Audio Technica SEA to create various marketing materials. With a snappy no nonsense attitude, Minimal_Art definitely brings villainess into the spotlight. While she is obviously a Shark V-Creator, she also denies it.
                         </p>
                         
                          {/* <Link href="https://www.youtube.com/watch?v=UIp6_0kct_U">  
