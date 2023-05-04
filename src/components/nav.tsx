@@ -31,7 +31,7 @@ function Nav() {
                 <Link className="nav-link" href="/Talents">TALENTS</Link>
                 </li>
                     <li className='nav-item'>
-                <Link className="nav-link" href="/Talents">MERCH</Link>
+                <Link className="nav-link" href="/Merch">MERCH</Link>
                 </li>
                     <li className='nav-item'>
                 <Link className="nav-link" href="/Partners">PARTNERS</Link>

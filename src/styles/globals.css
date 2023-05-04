@@ -261,6 +261,13 @@ body {
   display: block;
 }
 
+.AboutLogo {
+  width: 20vw;
+  height: auto;
+  text-align: center;
+  display: block;
+}
+
 article {
   text-align: center;
 }

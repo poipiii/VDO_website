@@ -20,7 +20,11 @@ const Partners = () => {
                     <Link href="https://www.xp-pen.com/">
                     <img src="/xp_pen_logo-2-new.png"   alt="" />
                     </Link>
-
+                </div>
+                    <div className="partnerLogoxp">
+                    <Link href="https://www.xencelabs.com">
+                    <img src="/e9703f5c-37b3-4fec-8d00-e2e1731502bc.jpg"   alt="" />
+                    </Link>
                 </div>
             </section>
         </main>

@@ -6,7 +6,7 @@ const Merch = () => {
         <Nav></Nav>
         <main>
             <section id="About" className="About container">
-                <h1>Site under construction.</h1>
+                <h1>Comming Soon.</h1>
         
             </section>
         </main>
