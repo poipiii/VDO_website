@@ -16,9 +16,8 @@ export default function Home() {
                 <img src="/Banner_Pic_1.jpg" alt=""></img>
             </section>
             <section id="About" className="About container">
-                <h1>About</h1>
-                <p>Imagination is the first step to more
-                   </p>
+                <h1>Imagination is the first step to more</h1>
+               
             </section>
             <section className="FPTalents container">
                 <h1>Talents</h1>
